@@ -1,4 +1,4 @@
-# XD
+# XDLANG
 
 This repostory cotnains source code for my series of articles about creating a programming lanugage and a compiler with Python.
 
@@ -8,3 +8,5 @@ See them here:
 
 2. https://medium.com/@mbednarski/creating-a-programming-language-part-2-23015630cd01
    
+3. https://medium.com/@mbednarski/creating-a-parser-for-a-programming-language-xdlang-part-3-94997860087e
+
