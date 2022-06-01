@@ -1,0 +1,18 @@
+%import common.WS
+%import common.CNAME
+%import common.NUMBER
+
+LITERAL: NUMBER 
+IDENTIFIER: CNAME
+
+!return_stmt: "return" expr ";"
+func_def: "fn" IDENTIFIER "(" (IDENTIFIER IDENTIFIER)? ("," IDENTIFIER IDENTIFIER)*  ")" ":" IDENTIFIER block
+
+!expr: LITERAL
+
+?statement: return_stmt
+!block: "{" statement* "}"
+
+program: func_def+
+
+%ignore WS
