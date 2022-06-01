@@ -1,6 +1,6 @@
 # XDLANG
 
-This repostory cotnains source code for my series of articles about creating a programming lanugage and a compiler with Python.
+This repostory cotnains source code for my series of articles about creating a programming language and a compiler with Python.
 
 See them here:
 
